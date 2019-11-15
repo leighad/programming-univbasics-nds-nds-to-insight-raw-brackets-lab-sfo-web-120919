@@ -20,7 +20,6 @@ def directors_totals(nds)
     
     result[director] = 0 
     puts result
-    i += 1 
 
  # iterate through movies array to grab value of :worldwide_gross key, sum up values
    
@@ -35,7 +34,7 @@ def directors_totals(nds)
     # return total
     result[director] = total 
 
-    # i += 1 
+    i += 1 
   end
   
   # result[director] = total 
