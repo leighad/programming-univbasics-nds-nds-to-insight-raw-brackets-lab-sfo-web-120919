@@ -24,10 +24,10 @@ def directors_totals(nds)
  # iterate through movies array to grab value of :worldwide_gross key, sum up values
    
     total = 0 
-    i = 0 
-    while i < source_array.length do
-      total += source_array[i][:worldwide_gross]
-      i += 1 
+    j = 0 
+    while j < source_array.length do
+      total += source_array[j][:worldwide_gross]
+      j += 1 
     end
     
     puts total
