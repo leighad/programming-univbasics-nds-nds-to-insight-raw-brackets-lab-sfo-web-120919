@@ -31,14 +31,11 @@ def directors_totals(nds)
     end
     
     puts total
-    # return total
     result[director] = total 
 
     i += 1 
   end
   
-  # result[director] = total 
-
 # return hash of { :name => total }
 
 return result
